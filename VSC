@@ -23,22 +23,24 @@ let item_3
 let item_3 = item_1 + item_2
 
 9. Вывести в консоль item_3
-console.log("item_3", + item_3)
+console.log("item_3 = " + item_3)
 
 10. Создать переменную “item_4”
 let item_4
 
 11. Присвоить переменной item_4 строку “Yolochka”
-let item_4 = “Yolochka”
+let item_4 = "Yolochka"
 
 12. Вывести в консоль item_4
-console.log("item_4", + Yolochka)
+console.log("item_4 = " + 'Yolochka')
 
 13. Вывести в консоль сложение item_3 и item_4
-
+let addition = item_4 + ' ' + item_3
+console.log("addition = " + addition)
 
 14. Вывести в консоль умножение item_3 и item_4
-
+let multiply = item_4 * item_3
+console.log("multiply = " + multiply)
 
 15. Создать переменную “item_5”
 let item_5
@@ -53,16 +55,14 @@ let item_6
 let item_6_type
 
 19. Присвоить переменной item_6 значение 15
-let item_6 = 16
+let item_6 = 15
 
 20. Присвоить переменной item_6_type тип переменной item_6
 let item_6_type = typeof(item_6)
 
 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——
-  1) let item_6 = '——  “item_6 == ”  item_6'
-     console.log("item_6 = " + item_6)
-  2) let item_6 = '“item_6_type == ”  item_6_type ——'
-     console.log("item_6 = " + item_6)
+  1) console.log("item_6 = " + '——  “item_6 == ”  item_6')
+  2) console.log("item_6 = " + '“item_6_type == ”  item_6_type ——')
 
 22. Создать переменную item_7 и в ней преобразовать item_6 в String
 
