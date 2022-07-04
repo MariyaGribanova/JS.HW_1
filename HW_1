@@ -103,19 +103,14 @@ if(true){
 }
 
 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
-Перед началом работы с этим кодом, необходимо закомментировать код из 30 пункта
-CTRL/
-let compare = age_1 >= age_2; age_1 <  age_3
+let compare2 = age_1 >= age_2; age_1 < age_3
 console.log("Compare = ", compare)
 if(true){
-    console.log("Welcome  !")
-}
+     console.log("Welcome  !")
+ }
 
 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”
-Перед началом работы с этим кодом, необходимо закомментировать код из 31 пункта
-CTRL/
-let compare = age_1  > age_3
-console.log("Compare = ", compare)
+let compare3 = age_1  > age_3
 if(true){
     console.log('Keep calm and look Culture channel')
 }
